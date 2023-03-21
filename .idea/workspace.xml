@@ -26,7 +26,17 @@
     </select>
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="redis" targetName="lua" />
+      <config projectName="redis" targetName="hellotype" />
+      <config projectName="redis" targetName="linenoise" />
+      <config projectName="redis" targetName="helloblock" />
+      <config projectName="redis" targetName="testmodule" />
+      <config projectName="redis" targetName="redis-cli" />
+      <config projectName="redis" targetName="helloworld" />
+      <config projectName="redis" targetName="hiredis" />
+      <config projectName="redis" targetName="redis-server" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -35,12 +45,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="100ab189-2266-4b30-a5e2-ce25c9923b54" name="Default Changelist" comment="aaa">
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deps/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deps/hiredis/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deps/linenoise/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deps/lua/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/redisAll.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/redisAll.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deps/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/deps/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deps/hiredis/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/deps/hiredis/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deps/linenoise/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/deps/linenoise/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deps/lua/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/deps/lua/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ae_kqueue.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ae_kqueue.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +65,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -74,6 +90,64 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RunManager" selected="CMake Application.redis-server">
+    <configuration name="helloblock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="redis" TARGET_NAME="helloblock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hellotype" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="redis" TARGET_NAME="hellotype" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="helloworld" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="redis" TARGET_NAME="helloworld" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hiredis" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="redis" TARGET_NAME="hiredis" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="linenoise" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="redis" TARGET_NAME="linenoise" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lua" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="redis" TARGET_NAME="lua" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="redis-cli" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="redis" TARGET_NAME="redis-cli" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="redis" RUN_TARGET_NAME="redis-cli">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="redis-server" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="redis" TARGET_NAME="redis-server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="redis" RUN_TARGET_NAME="redis-server">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testmodule" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="redis" TARGET_NAME="testmodule" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.redis-cli" />
+      <item itemvalue="CMake Application.redis-server" />
+      <item itemvalue="CMake Application.hiredis" />
+      <item itemvalue="CMake Application.linenoise" />
+      <item itemvalue="CMake Application.lua" />
+      <item itemvalue="CMake Application.helloblock" />
+      <item itemvalue="CMake Application.hellotype" />
+      <item itemvalue="CMake Application.helloworld" />
+      <item itemvalue="CMake Application.testmodule" />
+    </list>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -84,7 +158,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679395984682</updated>
-      <workItem from="1679395986119" duration="1265000" />
+      <workItem from="1679395986119" duration="1415000" />
+      <workItem from="1679397565339" duration="27000" />
+      <workItem from="1679397623620" duration="1130000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1679396068960</created>
@@ -100,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679396292459</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="aaa">
+      <created>1679397475119</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679397475119</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,24 +211,75 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aaa" />
     <option name="LAST_COMMIT_MESSAGE" value="aaa" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="360" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1679397550382">
+      <screen x="0" y="25" width="1792" height="1024" />
+    </state>
+    <state x="360" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/1792.25.1920.1055/0.25.1792.1024@0.25.1792.1024" timestamp="1679397550382" />
+    <state x="627" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1679397835709">
+      <screen x="0" y="25" width="1792" height="1024" />
+    </state>
+    <state x="627" y="343" key="#com.intellij.fileTypes.FileTypeChooser/1792.25.1920.1055/0.25.1792.1024@0.25.1792.1024" timestamp="1679397835709" />
     <state x="744" y="463" key="Github.Dialog.Accounts.Choose" timestamp="1679396095027">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
     <state x="744" y="463" key="Github.Dialog.Accounts.Choose/1792.25.1920.1055/0.25.1792.1027@0.25.1792.1027" timestamp="1679396095027" />
+    <state width="1750" height="333" key="GridCell.Tab.0.bottom" timestamp="1679398428293">
+      <screen x="0" y="25" width="1792" height="1026" />
+    </state>
+    <state width="1750" height="333" key="GridCell.Tab.0.bottom/1792.25.1920.1055/0.25.1792.1026@0.25.1792.1026" timestamp="1679398428293" />
+    <state width="1750" height="333" key="GridCell.Tab.0.center" timestamp="1679398428292">
+      <screen x="0" y="25" width="1792" height="1026" />
+    </state>
+    <state width="1750" height="333" key="GridCell.Tab.0.center/1792.25.1920.1055/0.25.1792.1026@0.25.1792.1026" timestamp="1679398428292" />
+    <state width="1750" height="333" key="GridCell.Tab.0.left" timestamp="1679398428291">
+      <screen x="0" y="25" width="1792" height="1026" />
+    </state>
+    <state width="1750" height="333" key="GridCell.Tab.0.left/1792.25.1920.1055/0.25.1792.1026@0.25.1792.1026" timestamp="1679398428291" />
+    <state width="1750" height="333" key="GridCell.Tab.0.right" timestamp="1679398428293">
+      <screen x="0" y="25" width="1792" height="1026" />
+    </state>
+    <state width="1750" height="333" key="GridCell.Tab.0.right/1792.25.1920.1055/0.25.1792.1026@0.25.1792.1026" timestamp="1679398428293" />
+    <state width="1750" height="333" key="GridCell.Tab.1.bottom" timestamp="1679398428295">
+      <screen x="0" y="25" width="1792" height="1026" />
+    </state>
+    <state width="1750" height="333" key="GridCell.Tab.1.bottom/1792.25.1920.1055/0.25.1792.1026@0.25.1792.1026" timestamp="1679398428295" />
+    <state width="1750" height="333" key="GridCell.Tab.1.center" timestamp="1679398428294">
+      <screen x="0" y="25" width="1792" height="1026" />
+    </state>
+    <state width="1750" height="333" key="GridCell.Tab.1.center/1792.25.1920.1055/0.25.1792.1026@0.25.1792.1026" timestamp="1679398428294" />
+    <state width="1750" height="333" key="GridCell.Tab.1.left" timestamp="1679398428294">
+      <screen x="0" y="25" width="1792" height="1026" />
+    </state>
+    <state width="1750" height="333" key="GridCell.Tab.1.left/1792.25.1920.1055/0.25.1792.1026@0.25.1792.1026" timestamp="1679398428294" />
+    <state width="1750" height="333" key="GridCell.Tab.1.right" timestamp="1679398428295">
+      <screen x="0" y="25" width="1792" height="1026" />
+    </state>
+    <state width="1750" height="333" key="GridCell.Tab.1.right/1792.25.1920.1055/0.25.1792.1026@0.25.1792.1026" timestamp="1679398428295" />
     <state x="655" y="243" key="RollbackChangesDialog" timestamp="1679396038381">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
     <state x="655" y="243" key="RollbackChangesDialog/1792.25.1920.1055/0.25.1792.1027@0.25.1792.1027" timestamp="1679396038381" />
-    <state x="496" y="261" key="Vcs.Push.Dialog.v2" timestamp="1679396295379">
-      <screen x="0" y="25" width="1792" height="1026" />
+    <state x="496" y="261" key="Vcs.Push.Dialog.v2" timestamp="1679397476743">
+      <screen x="0" y="25" width="1792" height="1024" />
     </state>
+    <state x="496" y="261" key="Vcs.Push.Dialog.v2/1792.25.1920.1055/0.25.1792.1024@0.25.1792.1024" timestamp="1679397476743" />
     <state x="496" y="261" key="Vcs.Push.Dialog.v2/1792.25.1920.1055/0.25.1792.1026@0.25.1792.1026" timestamp="1679396295379" />
     <state x="496" y="261" key="Vcs.Push.Dialog.v2/1792.25.1920.1055/0.25.1792.1027@0.25.1792.1027" timestamp="1679396071812" />
+    <state x="597" y="292" width="597" height="491" key="find.popup" timestamp="1679398875477">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state x="597" y="292" width="597" height="490" key="find.popup/1792.25.1920.1055/0.25.1792.1026@0.25.1792.1026" timestamp="1679398577043" />
+    <state x="597" y="292" width="597" height="491" key="find.popup/1792.25.1920.1055/0.25.1792.1027@0.25.1792.1027" timestamp="1679398875477" />
+    <state x="561" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1679397455800">
+      <screen x="0" y="25" width="1792" height="1024" />
+    </state>
+    <state x="561" y="252" width="670" height="676" key="search.everywhere.popup/1792.25.1920.1055/0.25.1792.1024@0.25.1792.1024" timestamp="1679397455800" />
   </component>
 </project>

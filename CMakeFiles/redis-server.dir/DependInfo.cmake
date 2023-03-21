@@ -1,0 +1,96 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/adlist.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/adlist.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/ae.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/ae.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/ae_kqueue.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/ae_kqueue.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/anet.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/anet.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/aof.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/aof.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/bio.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/bio.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/bitops.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/bitops.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/blocked.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/blocked.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/childinfo.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/childinfo.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/cluster.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/cluster.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/config.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/config.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/crc16.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/crc16.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/crc64.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/crc64.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/db.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/db.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/debug.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/debug.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/defrag.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/defrag.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/dict.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/dict.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/endianconv.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/endianconv.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/evict.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/evict.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/expire.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/expire.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/geo.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/geo.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/geohash.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/geohash.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/geohash_helper.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/geohash_helper.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/hyperloglog.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/hyperloglog.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/intset.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/intset.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/latency.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/latency.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/lazyfree.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/lazyfree.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/listpack.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/listpack.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/localtime.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/localtime.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/lolwut.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/lolwut.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/lolwut5.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/lolwut5.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/lzf_c.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/lzf_c.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/lzf_d.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/lzf_d.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/memtest.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/memtest.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/module.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/module.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/multi.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/multi.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/networking.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/networking.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/notify.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/notify.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/object.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/object.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/pqsort.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/pqsort.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/pubsub.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/pubsub.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/quicklist.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/quicklist.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/rand.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/rand.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/rax.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/rax.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/rdb.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/rdb.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/redis-check-aof.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/redis-check-aof.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/redis-check-rdb.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/redis-check-rdb.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/release.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/release.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/replication.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/replication.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/rio.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/rio.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/scripting.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/scripting.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/sds.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/sds.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/sentinel.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/sentinel.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/server.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/server.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/setproctitle.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/setproctitle.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/sha1.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/sha1.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/siphash.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/siphash.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/slowlog.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/slowlog.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/sort.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/sort.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/sparkline.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/sparkline.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/syncio.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/syncio.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/t_hash.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/t_hash.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/t_list.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/t_list.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/t_set.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/t_set.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/t_stream.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/t_stream.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/t_string.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/t_string.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/t_zset.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/t_zset.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/util.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/util.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/ziplist.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/ziplist.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/zipmap.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/zipmap.c.o"
+  "/Users/qiancheng/Desktop/opensource/redisAll/src/zmalloc.c" "/Users/qiancheng/Desktop/opensource/redisAll/CMakeFiles/redis-server.dir/src/zmalloc.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "AppleClang")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "deps/linenoise"
+  "deps/hiredis"
+  "deps/lua/src"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Users/qiancheng/Desktop/opensource/redisAll/deps/lua/CMakeFiles/lua.dir/DependInfo.cmake"
+  "/Users/qiancheng/Desktop/opensource/redisAll/deps/linenoise/CMakeFiles/linenoise.dir/DependInfo.cmake"
+  "/Users/qiancheng/Desktop/opensource/redisAll/deps/hiredis/CMakeFiles/hiredis.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

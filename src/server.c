@@ -4355,7 +4355,10 @@ int main(int argc, char **argv) {
         sdsfree(options);
     }
 
-    serverLog(LL_WARNING, "oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo");
+    serverLog(LL_WARNING, "qiancheng Redis is starting qiancheng");
+    serverLog(LL_WARNING, "qiancheng Redis is starting qiancheng");
+    serverLog(LL_WARNING, "qiancheng Redis is starting qiancheng");
+    serverLog(LL_WARNING, "qiancheng Redis is starting qiancheng");
     serverLog(LL_WARNING,
         "Redis version=%s, bits=%d, commit=%s, modified=%d, pid=%d, just started",
             REDIS_VERSION,

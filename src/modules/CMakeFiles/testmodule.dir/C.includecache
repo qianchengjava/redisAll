@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/qiancheng/Desktop/opensource/redisAll/src/modules/testmodule.c
+../redismodule.h
+/Users/qiancheng/Desktop/opensource/redisAll/src/redismodule.h
+string.h
+-
+
+/Users/qiancheng/Desktop/opensource/redisAll/src/redismodule.h
+sys/types.h
+-
+stdint.h
+-
+stdio.h
+-
+
