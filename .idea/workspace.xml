@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/5.0" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
   </component>
@@ -10,11 +35,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="100ab189-2266-4b30-a5e2-ce25c9923b54" name="Default Changelist" comment="aaa">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/redisAll.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/hiredis/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/linenoise/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lua/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +59,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2NJxSHYeFZ51U2V0Dns7tnVOjzt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679395984682</updated>
-      <workItem from="1679395986119" duration="301000" />
+      <workItem from="1679395986119" duration="1265000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1679396068960</created>
@@ -64,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679396068960</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="aaa">
+      <created>1679396292459</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679396292459</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,5 +132,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aaa" />
     <option name="LAST_COMMIT_MESSAGE" value="aaa" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="744" y="463" key="Github.Dialog.Accounts.Choose" timestamp="1679396095027">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state x="744" y="463" key="Github.Dialog.Accounts.Choose/1792.25.1920.1055/0.25.1792.1027@0.25.1792.1027" timestamp="1679396095027" />
+    <state x="655" y="243" key="RollbackChangesDialog" timestamp="1679396038381">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state x="655" y="243" key="RollbackChangesDialog/1792.25.1920.1055/0.25.1792.1027@0.25.1792.1027" timestamp="1679396038381" />
+    <state x="496" y="261" key="Vcs.Push.Dialog.v2" timestamp="1679396295379">
+      <screen x="0" y="25" width="1792" height="1026" />
+    </state>
+    <state x="496" y="261" key="Vcs.Push.Dialog.v2/1792.25.1920.1055/0.25.1792.1026@0.25.1792.1026" timestamp="1679396295379" />
+    <state x="496" y="261" key="Vcs.Push.Dialog.v2/1792.25.1920.1055/0.25.1792.1027@0.25.1792.1027" timestamp="1679396071812" />
   </component>
 </project>
