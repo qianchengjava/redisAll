@@ -136,6 +136,8 @@ void setCommand(client *c) {
     }
 
     c->argv[2] = tryObjectEncoding(c->argv[2]);
+    printf('I am setting a key....');
+    serverLog(LL_WARNING, "1111qiancheng Redis is starting qiancheng");
     setGenericCommand(c,flags,c->argv[1],c->argv[2],expire,unit,NULL,NULL);
 }
 

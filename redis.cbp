@@ -747,6 +747,10 @@
 			<Option target="redis-cli"/>
 			<Option target="redis-server"/>
 		</Unit>
+		<Unit filename="/Users/qiancheng/Desktop/opensource/redisAll/src/release.h">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
 		<Unit filename="/Users/qiancheng/Desktop/opensource/redisAll/src/replication.c">
 			<Option target="redis-server"/>
 		</Unit>

@@ -1538,7 +1538,7 @@ void createSharedObjects(void) {
 
 void initServerConfig(void) {
     int j;
-
+    //初始化锁
     pthread_mutex_init(&server.next_client_id_mutex,NULL);
     pthread_mutex_init(&server.lruclock_mutex,NULL);
     pthread_mutex_init(&server.unixtime_mutex,NULL);
@@ -1713,6 +1713,7 @@ void initServerConfig(void) {
      * redis.conf using the rename-command directive. */
     server.commands = dictCreate(&commandTableDictType,NULL);
     server.orig_commands = dictCreate(&commandTableDictType,NULL);
+    //预定义的命令填充到server.commonds
     populateCommandTable();
     server.delCommand = lookupCommandByCString("del");
     server.multiCommand = lookupCommandByCString("multi");
@@ -2063,6 +2064,7 @@ void initServer(void) {
     server.clients_paused = 0;
     server.system_memory_size = zmalloc_get_memory_size();
 
+    //创建共享对象
     createSharedObjects();
     adjustOpenFilesLimit();
     server.el = aeCreateEventLoop(server.maxclients+CONFIG_FDSET_INCR);
@@ -4255,6 +4257,8 @@ int main(int argc, char **argv) {
 #endif
     setlocale(LC_COLLATE,"");
     tzset(); /* Populates 'timezone' global. */
+
+    //申请空间oom后的处理器
     zmalloc_set_oom_handler(redisOutOfMemoryHandler);
     srand(time(NULL)^getpid());
     gettimeofday(&tv,NULL);
@@ -4263,6 +4267,7 @@ int main(int argc, char **argv) {
     getRandomHexChars(hashseed,sizeof(hashseed));
     dictSetHashFunctionSeed((uint8_t*)hashseed);
     server.sentinel_mode = checkForSentinelMode(argc,argv);
+    //初始化服务配置
     initServerConfig();
     moduleInitModulesSystem();
 
@@ -4355,10 +4360,7 @@ int main(int argc, char **argv) {
         sdsfree(options);
     }
 
-    serverLog(LL_WARNING, "qiancheng Redis is starting qiancheng");
-    serverLog(LL_WARNING, "qiancheng Redis is starting qiancheng");
-    serverLog(LL_WARNING, "qiancheng Redis is starting qiancheng");
-    serverLog(LL_WARNING, "qiancheng Redis is starting qiancheng");
+    serverLog(LL_WARNING, "222 Redis is starting qiancheng");
     serverLog(LL_WARNING,
         "Redis version=%s, bits=%d, commit=%s, modified=%d, pid=%d, just started",
             REDIS_VERSION,
@@ -4374,9 +4376,12 @@ int main(int argc, char **argv) {
     }
 
     server.supervised = redisIsSupervised(server.supervised_mode);
+    //守护进程
     int background = server.daemonize && !server.supervised;
     if (background) daemonize();
 
+
+    //初始化server服务
     initServer();
     if (background || server.pidfile) createPidFile();
     redisSetProcTitle(argv[0]);

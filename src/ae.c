@@ -63,8 +63,9 @@
 aeEventLoop *aeCreateEventLoop(int setsize) {
     aeEventLoop *eventLoop;
     int i;
-
+    //分配空间
     if ((eventLoop = zmalloc(sizeof(*eventLoop))) == NULL) goto err;
+    //创建对应数量的aeFileEvent空间
     eventLoop->events = zmalloc(sizeof(aeFileEvent)*setsize);
     eventLoop->fired = zmalloc(sizeof(aeFiredEvent)*setsize);
     if (eventLoop->events == NULL || eventLoop->fired == NULL) goto err;
@@ -415,6 +416,7 @@ int aeProcessEvents(aeEventLoop *eventLoop, int flags)
             eventLoop->aftersleep(eventLoop);
 
         for (j = 0; j < numevents; j++) {
+            //获取一个事件处理器
             aeFileEvent *fe = &eventLoop->events[eventLoop->fired[j].fd];
             int mask = eventLoop->fired[j].mask;
             int fd = eventLoop->fired[j].fd;
@@ -493,9 +495,14 @@ int aeWait(int fd, int mask, long long milliseconds) {
     }
 }
 
+
 void aeMain(aeEventLoop *eventLoop) {
     eventLoop->stop = 0;
+    //只要没有停止，就循环执行，这个是主线程
+
     while (!eventLoop->stop) {
+        int i = 0;
+        printf("第次只要没有停止，就循环执行，这个是主线程\n");
         if (eventLoop->beforesleep != NULL)
             eventLoop->beforesleep(eventLoop);
         aeProcessEvents(eventLoop, AE_ALL_EVENTS|AE_CALL_AFTER_SLEEP);
